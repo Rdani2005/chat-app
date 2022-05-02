@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("https://i.stack.imgur.com/vhoa0.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.appBar {
+    border-radius: 15;
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-Content: center;
+    align-items: center;
+    width: 600px;
+    border: 2px solid black;
+}
+
+
+
+.image {
+    margin-left: 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.video {
+    width: 550px;
+}
+
+.grid--container {
+    justify-content: center;
+}
+
+.paper {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+
+
+.root {
+    display: 'flex';
+    flex-direction: 'column';
+}
+
+.gridContainer {
+    width: '100%';
+}
+
+.container {
+    width: 600px;
+    margin: 35px 0;
+    padding: 0;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.paper--options {
+    padding: '10px 20px';
+    border: '2px solid black';
+}
+
+
+@media (min-width: 500px) {
+    .appBar {
+        width: 90%;
+    }
+
+    .video {
+        width: 300px;
+    }
+
+    .grid--container {
+        flex-direction: column;
+    }
+
+    .gridContainer {
+        flex-direction: 'column';
+    }
+
+    .container {
+        width: 80%;
+    }
+}
